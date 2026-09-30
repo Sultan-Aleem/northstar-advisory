@@ -1,0 +1,55 @@
+@import "tailwindcss";
+
+@theme {
+  --color-Cgreen: var(--Cgreen);
+  --color-Cashy: var(--Cashy);
+  --color-Ccream: var(--Ccream);
+  --color-Cfaded: var(--Cfaded);
+  --Cbg: var(--Cbg);
+}
+
+@layer base {
+  :root {
+    --Cgreen: #1f3a2e;
+    --Cashy: #69746b;
+    --Ccream: #b89968;
+    --Cfaded: #bdc0b6;
+    --Cbg: #f1ede3;
+
+    --font-Montserrat: "Montserrat", sans-serif;
+    --font-Playfair: "Playfair", monospace;
+  }
+
+  html {
+    /* @apply scroll-smooth */
+  }
+  ::-webkit-scrollbar {
+    display: none;
+  }
+
+  body {
+    overflow-x: hidden;
+  }
+
+  @font-face {
+    font-family: Montserrat;
+    src: url("/src/assets/fonts/Montserrat.ttf") format("truetype");
+  }
+
+  @font-face {
+    font-family: Playfair;
+    src: url("/src/assets/fonts/Playfair.ttf") format("truetype");
+  }
+}
+
+/* 
+green:
+#1f3a2e
+
+cream:
+#b89968
+
+ashy:#69746b
+
+faded:#bdc0b6
+*/
