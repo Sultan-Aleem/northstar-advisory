@@ -5,7 +5,10 @@
   --color-Cashy: var(--Cashy);
   --color-Ccream: var(--Ccream);
   --color-Cfaded: var(--Cfaded);
-  --Cbg: var(--Cbg);
+  --color-Cbg: var(--Cbg);
+
+  --font-Montserrat: var(--font-Montserrat);
+  --font-Playfair: var(--font-Playfair);
 }
 
 @layer base {
